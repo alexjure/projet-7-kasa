@@ -1,0 +1,28 @@
+.footer{
+    background: black;
+    position: relative;
+    max-width: 1440px;
+    height: 209px;
+    display: flex;
+    justify-content: center;
+}
+
+.kasa-logo-footer{
+    position: absolute;
+    left: 659px;
+    top: 66px;
+}
+
+.text{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    left: 32.15%;
+    right: 32.22%;
+    top: 64.11%;
+    bottom: 13.88%;
+}
