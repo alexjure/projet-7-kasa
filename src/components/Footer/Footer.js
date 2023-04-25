@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <Link to="/"><img src={logoFooter} alt='logo Kasa' className='kasa-logo-footer' /></Link>
-            <p className='text'>© 2020 Kasa. All rights reserved</p>
-        </div>
+            <p>© 2020 Kasa. All rights reserved</p>
+        </footer>
     )
 }
 

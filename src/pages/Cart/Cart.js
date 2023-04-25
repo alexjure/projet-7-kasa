@@ -1,14 +1,13 @@
-import './Cart.css'
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
+import Card from '../../components/Card/Card'
+import Banner from '../../components/Banner/Banner'
 
-function Cart() {
+function Cart (){
    return (
       <section>
-         <Header />
-         <Footer />
+         <Banner />
+         <Card />
       </section>
    )
 }
 
-export default Cart; 
+export default Cart

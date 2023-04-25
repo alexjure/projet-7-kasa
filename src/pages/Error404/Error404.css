@@ -1,35 +1,18 @@
 .error{
-    max-width: 1440px;
-    height: 1024px;
-}
-
-.image-404{
-    position: absolute;
-    width: 597px;
-    height: 263px;
-    left: 432px;
-    top: 277px;
-}
-
-.page-not-found{
-    position: absolute;
-    top: 606px;
-    left: 295px;
+    text-align: center;
 }
 
 /*Oups ! La page que vous demandez n'existe pas */
 .text-error{
-    font-family: 'Montserrat';
     font-size: 36px;
     color: #FF6060;
+    margin-bottom:10rem;
 }
 
 /*Retourner sur la page d'accueil*/
 .text-retour-accueil{
-    font-family: 'Montserrat';
     font-size: 18px;
     color: #FF6060;
-    position:absolute;
     top: 839px;
     left: 578px;
 }

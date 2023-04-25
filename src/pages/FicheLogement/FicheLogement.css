@@ -1,0 +1,8 @@
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.Dropdown{
+    width: 10px;
+}

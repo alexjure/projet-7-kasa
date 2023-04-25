@@ -1,0 +1,22 @@
+body{
+    font-family: 'Montserrat';
+    max-width: 1240px;
+    margin: 1px auto;
+}
+
+@media screen and (max-width: 767px){
+    body{
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        margin: 20px;
+    }
+}
+
+/*main{
+    max-width: 1240px;
+    margin:0 auto;
+}*/

@@ -5,7 +5,9 @@ const Blank = () => {
     return (
         <>
             
+        <main>
             <Outlet />
+        </main>
 
         </>
     )
