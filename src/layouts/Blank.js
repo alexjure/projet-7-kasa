@@ -1,14 +1,17 @@
 import { Outlet } from 'react-router-dom'
+import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
+
 
 const Blank = () => {
 
     return (
         <>
-            
-        <main>
-            <Outlet />
-        </main>
-
+            <Header />
+            <main>
+                <Outlet />
+            </main>
+            <Footer />
         </>
     )
 };

@@ -2,17 +2,29 @@ footer {
     background: black;
     padding: 25px;
     margin-top: 20px;
-    text-align: center
+    text-align: center;
 }
 
 footer > p {
     color: white;
+    font-size: 24px;
 }
 
 /*Version Mobile*/
 
 @media screen and (max-width: 767px) {
     footer{
-        margin-top: 0;
+        margin: 0;
     }
+
+    footer > p{
+        font-size: 12px;
+    }
+
+}
+
+/*Version Tablette*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
 }

@@ -1,21 +1,15 @@
 import './Tag.css'
 
-function Tag({content}) {
+function Tag({ content }) {
+
+const tag = content.tags;
+const tagMap = tag.map((e, index) => (
+    <p className="tagP" key={e}>{content.tags[index]}</p>
+))
+
     return (
-        <section>
-                <div className='tags'>{content}</div>
-        </section>
-    ) 
+        <div className='tag'>{tagMap}</div>
+    )
 }
 
 export default Tag
-
-/*
-  const tag = logement.tags;
-    const tagMap = tag.map((e, index) => (
-        <p className='tagP' key={e}> {logement.tags[index]}</p>
-    ));
-
-    return <div className='tags'> {tagMap} </div>
-
-*/

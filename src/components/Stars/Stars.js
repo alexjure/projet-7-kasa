@@ -1,12 +1,22 @@
+import './Stars.css';
+import StarsEmpty from '../../assets/StarsEmpty.png'
+import StarsFull from '../../assets/StarsFull.png'
 
+function Stars({ stars }) {
+    const ratingScore = [1, 2, 3, 4, 5];
 
-function Stars({ logement }) {
-    console.log(logement.rating);
-    return(
-        <></>
+    return (
+        <>
+            {ratingScore.map((ratingElem) =>
+                stars >= ratingElem ? (
+                    <img src={StarsFull} key={ratingElem.toString()} alt='Etoile rempli' />
+                ) : (
+                    <img src={StarsEmpty} key={ratingElem.toString()} alt='Etoile vide' />
+                )
+            )}
+        </>
     )
-
-    
 }
+
 
 export default Stars

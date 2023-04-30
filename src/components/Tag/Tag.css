@@ -1,4 +1,27 @@
-.tags{
+.tagP{
+    background: #FF6060;
+    width: 100px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tag{
+    display: flex;
+    gap: 15px;
+}
+
+.tag > p{
+    display: flex;
+    color : white;
+    margin: 10px 0;
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+/*.tags{
     background-color: #FF6060;
     width: 115px;
     height: 25px;
@@ -13,3 +36,6 @@
     align-items: center;
     color: white;
 }
+
+
+*/

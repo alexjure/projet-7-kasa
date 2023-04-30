@@ -1,3 +1,43 @@
+h2{
+    font-size: 36px;
+    color: #FF6060;
+}
+
+h3, p {
+    font-size: 18px;
+    color: #FF6060;
+}
+
+.Title-Host{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+}
+.Host{
+    display: flex;
+
+}
+
+.Host-Picture img{
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.Part-Dropdown{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap:25px;
+}
+
+.buttonMenu{
+    width: 580px;
+}
+
+/*
 section{
     display: flex;
     flex-direction: column;
@@ -6,3 +46,4 @@ section{
 .Dropdown{
     width: 10px;
 }
+*/

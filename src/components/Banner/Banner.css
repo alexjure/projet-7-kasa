@@ -12,6 +12,7 @@
     background-image: url('../../assets/img-home.jpg');
     margin: 2rem 0 3rem 0;
     width: 100%;
+    border-radius: 25px;
 }
 
 .textBanner {

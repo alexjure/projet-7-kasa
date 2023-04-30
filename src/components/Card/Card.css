@@ -13,8 +13,8 @@
     border-radius: 25px;
     display: flex;
     margin-bottom: 50px;
-    object-fit: cover;
-    object-position: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .carte-image p{

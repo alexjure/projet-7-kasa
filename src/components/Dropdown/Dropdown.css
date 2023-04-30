@@ -1,9 +1,9 @@
+/*
 .buttonMenu{
     display: flex;
     background-color: #FF6060;
     color: white;
     cursor: pointer;
-    width: 100%;
     border: none;
     text-align: left;
     outline: none;
@@ -12,13 +12,12 @@
     border-radius: 10px;
 }
 
-.text{
-    font-size: 20px;
-    padding: 15px;
-    margin-bottom: 20px;
-    background-color: rgb(255, 255, 255);
-    display: none;
+.buttonMenu p{
+    color: white;
+    font-size: 18px;
 }
+
+
 
 .dropdown:active .text{
     display: block;
@@ -30,15 +29,46 @@
     transform: rotate(180deg);
 }
 
+*/
 
+.dropdownBlock{
+    background: #FF6060;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
-
-.active {
-    background-color: #FF6060;
-    
+.text{
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    display: none;
+    color: #FF6060;
+    font-size: 18px; 
 }
 
 
+.active{
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+}
+
+
+.active > .text {
+    display: block;
+}
+
+
+.dropdown{
+    width: 100%;
+}
 
 /*
 
