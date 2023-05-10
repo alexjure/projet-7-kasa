@@ -9,9 +9,9 @@ function Stars({ stars }) {
         <>
             {ratingScore.map((ratingElem) =>
                 stars >= ratingElem ? (
-                    <img src={StarsFull} key={ratingElem.toString()} alt='Etoile rempli' />
+                    <img src={StarsFull} key={ratingElem.toString()} alt='Etoile rempli' className='stars' />
                 ) : (
-                    <img src={StarsEmpty} key={ratingElem.toString()} alt='Etoile vide' />
+                    <img src={StarsEmpty} key={ratingElem.toString()} alt='Etoile vide' className='stars'/>
                 )
             )}
         </>

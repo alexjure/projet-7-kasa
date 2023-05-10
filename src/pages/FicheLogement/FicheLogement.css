@@ -3,6 +3,14 @@ h2{
     color: #FF6060;
 }
 
+.Title-Tags h3{
+    margin-top: 0;
+}
+
+.Title-Tags h2{
+    margin-bottom: 0;
+}
+
 h3, p {
     font-size: 18px;
     color: #FF6060;
@@ -16,7 +24,27 @@ h3, p {
 }
 .Host{
     display: flex;
+    flex-direction: column;
+}
 
+.host-name-picture{
+    display: flex;
+    align-items: center;
+}
+
+.Host-name{
+    width: 100px;
+    margin-right: 10px;
+}
+
+.Host-name p{
+    font-size: 18px;
+    text-align: end;
+}
+
+.Host-Picture {
+    height: 64px;
+    width: 64px;
 }
 
 .Host-Picture img{
@@ -26,6 +54,10 @@ h3, p {
     border-radius: 50%;
 }
 
+.number-stars{
+    margin-top: 30px;
+}
+
 .Part-Dropdown{
     display: flex;
     width: 100%;
@@ -33,9 +65,9 @@ h3, p {
     gap:25px;
 }
 
-.buttonMenu{
-    width: 580px;
-}
+
+
+
 
 /*
 section{
@@ -45,5 +77,9 @@ section{
 
 .Dropdown{
     width: 10px;
+}
+
+.buttonMenu{
+    width: 580px;
 }
 */
