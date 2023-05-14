@@ -52,11 +52,7 @@ function FicheLogement() {
 
     return (
         <section>
-
-
             <Carrousel slides={logement.pictures} />
-
-
             <div className='Title-Host'>
                 <div className='Title-Tags'>
                     <h2>{logementTitle}</h2>

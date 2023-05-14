@@ -11,7 +11,7 @@ h2{
     margin-bottom: 0;
 }
 
-h3, p {
+h3 {
     font-size: 18px;
     color: #FF6060;
 }
@@ -19,7 +19,7 @@ h3, p {
 .Title-Host{
     display: flex;
     justify-content: space-between;
-    margin: 0;
+    margin: 0 0 25px 0;
     width: 100%;
 }
 .Host{
@@ -30,6 +30,7 @@ h3, p {
 .host-name-picture{
     display: flex;
     align-items: center;
+    margin-top: 25px;
 }
 
 .Host-name{
@@ -40,6 +41,7 @@ h3, p {
 .Host-name p{
     font-size: 18px;
     text-align: end;
+    color: #FF6060;
 }
 
 .Host-Picture {
@@ -55,7 +57,7 @@ h3, p {
 }
 
 .number-stars{
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .Part-Dropdown{
@@ -65,9 +67,63 @@ h3, p {
     gap:25px;
 }
 
+/*Version Mobile*/
+
+@media screen and (max-width: 767px){
+
+.Title-Host{
+    flex-direction: column;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+.Host-name p{
+    font-size: 12px;
+}
+
+.Host-Picture{
+    height: 32px;
+    width: 32px;
+}
+
+.Host-Picture img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.Host{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.Host-name{
+    width: 80px;
+}
+
+.number-stars{
+    margin-top: 15px;
+}
+
+.Part-Dropdown{
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+}
+
+/*Version Tablette*/
+
+@media screen and (min-width: 768px) and (max-width:992px){
 
 
-
+}
 
 /*
 section{

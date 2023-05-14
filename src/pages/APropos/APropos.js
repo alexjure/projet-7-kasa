@@ -1,5 +1,6 @@
 import Dropdown from '../../components/Dropdown/Dropdown'
 import Image from '../../assets/img-a-propos.jpg'
+import data from '../../data/a-propos.json'
 import './APropos.css'
 
 function APropos() {
@@ -12,7 +13,27 @@ function APropos() {
             </div>
 
             <div className='Bloc-Dropdown'>
-                <Dropdown title='Fiabilité' className='Dropdown' content={
+                {data.map((text) => (
+                    <>
+                    <Dropdown title='Fiabilité' className='Dropdown' content={text.fiabilite} />
+                    <Dropdown title='Respect' className='Dropdown' content={text.respect} />
+                    <Dropdown title='Service' className='Dropdown' content={text.service} />
+                    <Dropdown title='Sécurité' className='Dropdown' content={text.securite} />
+                    </>
+                ))}
+            </div>
+        </div>
+    )
+}
+
+/*
+  <div className='image-a-propos' style={{ backgroundImage: `linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(${Image})` }}>
+            </div>
+
+
+
+
+<Dropdown title='Fiabilité' className='Dropdown' content={
                     <p>Les annonces postées sur Kasa garantissent une fiabilité totale.
                         Les photos sont conformes aux logements, et toutes les informations
                         sont régulièrement vérifiées par nos équipes.
@@ -46,13 +67,6 @@ function APropos() {
                     </p>
                 }>
                 </Dropdown>
-            </div>
-        </div>
-    )
-}
-
-/*
-  <div className='image-a-propos' style={{ backgroundImage: `linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(${Image})` }}>
             </div>
 */
 export default APropos

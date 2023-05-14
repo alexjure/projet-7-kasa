@@ -1,5 +1,28 @@
 .stars{
     width: 24px;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 15px;
+}
+
+/*Version Mobile*/
+
+@media screen and (max-width: 767px){
+    .stars{
+        width: 13px;
+        height: 14px;
+        margin-right: 7px;
+    }
+}
+
+
+/*Version Tablette*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    .stars{
+        width: 18px;
+        height: 19px;
+        margin-right: 12px;
+    }
+
 }

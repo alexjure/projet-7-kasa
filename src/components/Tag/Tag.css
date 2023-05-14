@@ -1,7 +1,7 @@
 .tagP{
     background: #FF6060;
-    width: 100px;
-    border-radius: 25px;
+    width: 115px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -20,6 +20,37 @@
     padding: 5px;
     text-align: center;
 }
+
+/*Version Mobile*/
+
+@media screen and (max-width: 767px){
+    .tagP{
+        width: 85px;
+        border-radius: 5px;
+    }
+
+    .tag >p {
+        font-size: 10px;
+    }
+
+}
+
+/*Version Tablette*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    .tagP{
+        width: 100px;
+        border-radius: 7px;
+    }
+
+    .tag >p {
+        font-size: 12px;
+    }
+
+}
+
+
 
 
 /*.tags{
