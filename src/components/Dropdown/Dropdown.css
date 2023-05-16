@@ -28,6 +28,10 @@
     border-radius: 10px;
 }
 
+.text p{
+    margin-top: 0;
+}
+
 .active{
     display: block;
     margin-top: 0px; 

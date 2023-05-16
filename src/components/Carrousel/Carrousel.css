@@ -6,26 +6,29 @@
 .carte-image-carrousel{
     width: 100%;
     height: 415px;
-    background-image: cover;
     background-position: center;
     border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.carte-image-carrousel span{
-    position: relative;
-    top: 146px;
+.partPrev{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
 }
 
-.next{
-    float: right;
-    padding-right: 23px;
+.counterImage{
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    font-size: 18px;
 }
-
-.prev{
-    float: left;
-    padding-left: 23px;
+.partNext{
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
 }
-
 
 .slide{
     display: none;
@@ -40,6 +43,23 @@
     color: white;
 }
 
+/*
+.carte-image-carrousel span{
+    position: relative;
+    top: 146px;
+}
+
+.next{
+    float: right;
+    padding-right: 23px;
+}
+
+.prev{
+    float: left;
+    padding-left: 23px;
+}
+*/
+
 /* Version mobile */
 
 @media screen and (max-width: 767px){
@@ -53,16 +73,16 @@
         font-size: 20px;
     }
 
-    .carte-image-carrousel span{
-        top: 120px;
-    }
-
-    .next{
-        padding-right: 6px;
+    .partNext{
+        margin-right: 6px;
     }
     
-    .prev{
-        padding-left: 6px;
+    .partPrev{
+        margin-left: 6px;
+    }
+
+    .counterImage{
+        display: none;
     }
 
 }
@@ -71,5 +91,27 @@
 /* Version Tablette */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    
+    .carte-image-carrousel{
+        height: 350px;
+        border-radius: 20px;
+    }
+
+    .carte-image-carrousel i{
+        font-size: 40px;
+    }
+
+    .partPrev{
+        margin-left: 15px;
+    }
+
+    .counterImage{
+        display: none;
+    }
+
+    .partNext{
+        margin-right: 15px;
+    }
+    
     
 }
