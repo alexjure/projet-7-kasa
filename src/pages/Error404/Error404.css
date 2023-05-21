@@ -2,17 +2,65 @@
     text-align: center;
 }
 
+.error img{
+    margin-top: 170px;
+    width: 600px;
+}
+
 /*Oups ! La page que vous demandez n'existe pas */
-.text-error{
+.textError{
     font-size: 36px;
     color: #FF6060;
     margin-bottom:160px;
 }
 
 /*Retourner sur la page d'accueil*/
-.text-retour-accueil{
+
+.lienAccueil{
     font-size: 18px;
     color: #FF6060;
-    top: 839px;
-    left: 578px;
+    /*top: 839px;
+    left: 578px;*/
+}
+
+/*Version Mobile*/
+
+@media screen and (max-width: 767px){
+    .error img{
+        margin-top: 190px;
+        width: 200px;
+    }
+
+    .textError{
+        font-size: 18px;
+    }
+
+    .retourAccueil{
+        margin-bottom: 20px;
+    }
+
+    .lienAccueil{
+        font-size: 14px;
+    }
+}
+
+/*Version Tablette*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .error img{
+        margin-top: 190px;
+        width: 350px;
+    }
+
+    .textError{
+        font-size: 25px;
+    }
+
+    .retourAccueil{
+        margin-bottom: 20px;
+    }
+
+    .lienAccueil{
+        font-size: 16px;
+    }
 }

@@ -53,28 +53,28 @@ function FicheLogement() {
     return (
         <section>
             <Carrousel slides={logement.pictures} />
-            <div className='Title-Host'>
-                <div className='Title-Tags'>
+            <div className='titleHost'>
+                <div className='titleTags'>
                     <h2>{logementTitle}</h2>
                     <h3>{logementLocation}</h3>
                     <Tags content={logement} />
                 </div>
-                <div className='Host'>
-                    <div className='host-name-picture'>
-                        <div className='Host-name'>
+                <div className='host'>
+                    <div className='hostNamePicture'>
+                        <div className='hostName'>
                             <p>{logementHostName}</p>
                         </div>
-                        <div className='Host-Picture'>
+                        <div className='hostPicture'>
                             <img src={logementHostPicture} alt='hôte du logement' />
                         </div>
                     </div>
-                    <div className='number-stars'>
+                    <div className='numberStars'>
                         <Stars stars={rating} />
                     </div>
                 </div>
 
             </div>
-            <div className='Part-Dropdown'>
+            <div className='partDropdown'>
                 <Dropdown title='Description' content={logement.description} className="Dropdown" />
                 <Dropdown title="Equipements" content={mapLogementEquipements} className="Dropdown" />
             </div>

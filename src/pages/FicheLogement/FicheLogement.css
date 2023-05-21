@@ -3,11 +3,11 @@ h2{
     color: #FF6060;
 }
 
-.Title-Tags h3{
+.titleTags h3{
     margin-top: 0;
 }
 
-.Title-Tags h2{
+.titleTags h2{
     margin-bottom: 0;
 }
 
@@ -16,51 +16,51 @@ h3 {
     color: #FF6060;
 }
 
-.Title-Host{
+.titleHost{
     display: flex;
     justify-content: space-between;
     margin: 0 0 25px 0;
     width: 100%;
 }
-.Host{
+.host{
     display: flex;
     flex-direction: column;
 }
 
-.host-name-picture{
+.hostNamePicture{
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
 
-.Host-name{
+.hostName{
     width: 100px;
     margin-right: 10px;
 }
 
-.Host-name p{
+.hostName p{
     font-size: 18px;
     text-align: end;
     color: #FF6060;
 }
 
-.Host-Picture {
+.hostPicture {
     height: 64px;
     width: 64px;
 }
 
-.Host-Picture img{
+.hostPicture img{
     align-items: center;
     height: 64px;
     width: 64px;
     border-radius: 50%;
 }
 
-.number-stars{
+.numberStars{
     margin-top: 25px;
 }
 
-.Part-Dropdown{
+.partDropdown{
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -71,8 +71,9 @@ h3 {
 
 @media screen and (max-width: 767px){
 
-.Title-Host{
+.titleHost{
     flex-direction: column;
+    margin: 0 0 0 0;
 }
 
 h2{
@@ -83,37 +84,49 @@ h3{
     font-size: 14px;
 }
 
-.Host-name p{
+.hostNamePicture{
+    margin-top: 0;
+}
+
+.hostName p{
     font-size: 12px;
 }
 
-.Host-Picture{
+.hostPicture{
     height: 32px;
     width: 32px;
 }
 
-.Host-Picture img{
+.hostPicture img{
     height: 32px;
     width: 32px;
     border-radius: 50%;
 }
 
-.Host{
+.host{
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
-.Host-name{
+.hostName{
     width: 80px;
 }
 
-.number-stars{
+.numberStars{
     margin-top: 15px;
 }
 
-.Part-Dropdown{
+.partDropdown{
     flex-wrap: wrap;
     gap: 0;
+}
+
+.titleTags h2{
+    margin-bottom: 5px;
+}
+
+.titleTags h3{
+    margin-bottom: 0;
 }
 
 }
@@ -124,18 +137,3 @@ h3{
 
 
 }
-
-/*
-section{
-    display: flex;
-    flex-direction: column;
-}
-
-.Dropdown{
-    width: 10px;
-}
-
-.buttonMenu{
-    width: 580px;
-}
-*/

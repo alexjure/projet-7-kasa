@@ -26,7 +26,7 @@ const Carrousel = ({ slides }) => {
             {slides.map((l, index) => {
                 return (
                     <div className={index === current ? 'slide-active' : 'slide'} key={index}>
-                        <div className='carte-image-carrousel' style={{ backgroundImage: `url(${l})` }}>
+                        <div className='carteImageCarrousel' style={{ backgroundImage: `url(${l})` }}>
                             <div className='partPrev'>
                                 <span onClick={prevSlide} style={{ display: display }} className='prev'><i className="fa-sharp fa-solid fa-chevron-left"></i></span>
                             </div>

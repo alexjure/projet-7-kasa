@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 function Footer() {
     return (
         <footer className='footer'>
-            <Link to="/"><img src={logoFooter} alt='logo Kasa' className='kasa-logo-footer' /></Link>
+            <Link to="/"><img src={logoFooter} alt='logo Kasa' className='kasaLogoFooter' /></Link>
             <p>© 2020 Kasa. All rights reserved</p>
         </footer>
     )

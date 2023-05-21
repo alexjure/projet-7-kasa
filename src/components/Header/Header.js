@@ -5,10 +5,10 @@ import {Link} from 'react-router-dom'
 function Header() {
     return (
         <div className='header'>
-            <Link to="/" className='logo-lien-kasa'><img src={logo} alt='logo Kasa' className='kasa-logo' /></Link>
+            <Link to="/" className='logoLienKasa'><img src={logo} alt='logo Kasa' className='kasaLogo' /></Link>
                 <div className='liens'>
-                    <Link to="/" className='text-lien-accueil'>Accueil</Link>
-                    <Link to="/a-propos" className='text-lien-a-propos'>A Propos</Link>
+                    <Link to="/" className='textLienAccueil'>Accueil</Link>
+                    <Link to="/a-propos" className='textLienAPropos'>A Propos</Link>
                 </div>
         </div>
     )
