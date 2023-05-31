@@ -35,7 +35,7 @@ function FicheLogement() {
         return (
             <Error404 />
         )
-        //console.log('retourner le composant error')
+
     }
 
     const logementTitle = logement.title
@@ -79,13 +79,8 @@ function FicheLogement() {
                 <Dropdown title="Equipements" content={mapLogementEquipements} className="Dropdown" />
             </div>
 
-
-
         </section>
-
     )
 }
 
 export default FicheLogement
-
-/*<ImageSlider />*/

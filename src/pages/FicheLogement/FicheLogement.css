@@ -1,13 +1,13 @@
-h2{
+h2 {
     font-size: 36px;
     color: #FF6060;
 }
 
-.titleTags h3{
+.titleTags h3 {
     margin-top: 0;
 }
 
-.titleTags h2{
+.titleTags h2 {
     margin-bottom: 0;
 }
 
@@ -16,29 +16,30 @@ h3 {
     color: #FF6060;
 }
 
-.titleHost{
+.titleHost {
     display: flex;
     justify-content: space-between;
     margin: 0 0 25px 0;
     width: 100%;
 }
-.host{
+
+.host {
     display: flex;
     flex-direction: column;
 }
 
-.hostNamePicture{
+.hostNamePicture {
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
 
-.hostName{
+.hostName {
     width: 100px;
     margin-right: 10px;
 }
 
-.hostName p{
+.hostName p {
     font-size: 18px;
     text-align: end;
     color: #FF6060;
@@ -49,91 +50,105 @@ h3 {
     width: 64px;
 }
 
-.hostPicture img{
+.hostPicture img {
     align-items: center;
     height: 64px;
     width: 64px;
     border-radius: 50%;
 }
 
-.numberStars{
+.numberStars {
     margin-top: 25px;
 }
 
-.partDropdown{
+.partDropdown {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    gap:25px;
+    gap: 25px;
 }
 
 /*Version Mobile*/
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
 
-.titleHost{
-    flex-direction: column;
-    margin: 0 0 0 0;
-}
+    .titleHost {
+        flex-direction: column;
+        margin: 0 0 0 0;
+    }
 
-h2{
-    font-size: 18px;
-}
+    h2 {
+        font-size: 18px;
+    }
 
-h3{
-    font-size: 14px;
-}
+    h3 {
+        font-size: 14px;
+    }
 
-.hostNamePicture{
-    margin-top: 0;
-}
+    .hostNamePicture {
+        margin-top: 0;
+    }
 
-.hostName p{
-    font-size: 12px;
-}
+    .hostName p {
+        font-size: 12px;
+    }
 
-.hostPicture{
-    height: 32px;
-    width: 32px;
-}
+    .hostPicture {
+        height: 32px;
+        width: 32px;
+    }
 
-.hostPicture img{
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
-}
+    .hostPicture img {
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+    }
 
-.host{
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
+    .host {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
 
-.hostName{
-    width: 80px;
-}
+    .hostName {
+        width: 80px;
+    }
 
-.numberStars{
-    margin-top: 15px;
-}
+    .numberStars {
+        margin-top: 15px;
+    }
 
-.partDropdown{
-    flex-wrap: wrap;
-    gap: 0;
-}
+    .partDropdown {
+        flex-wrap: wrap;
+        gap: 0;
+    }
 
-.titleTags h2{
-    margin-bottom: 5px;
-}
+    .titleTags h2 {
+        margin-bottom: 5px;
+    }
 
-.titleTags h3{
-    margin-bottom: 0;
-}
+    .titleTags h3 {
+        margin-bottom: 0;
+    }
 
 }
 
 /*Version Tablette*/
 
-@media screen and (min-width: 768px) and (max-width:992px){
+@media screen and (min-width: 768px) and (max-width:992px) {
 
+    h2 {
+        font-size: 30px;
+    }
 
+    h3 {
+        font-size: 16px;
+    }
+
+    .hostName p {
+        font-size: 16px;
+    }
+
+    .numberStars {
+        margin-top: 12px;
+    }
 }

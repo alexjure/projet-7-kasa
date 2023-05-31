@@ -1,6 +1,7 @@
+import './Error404.css'
 import error from '../../assets/error.png'
 import { Link } from 'react-router-dom'
-import './Error404.css'
+
 
 function Error() {
     return (

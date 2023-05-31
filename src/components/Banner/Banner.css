@@ -7,9 +7,8 @@
     align-items: center;
     justify-content: center;
 }
-   
+
 .textBanner{
-    background-image: url("../../assets/img-a-propos.jpg");
     font-size: 28px;
     margin: 0 auto;
     color: white;
@@ -34,6 +33,7 @@
     .banner{
         padding: 0 0 0 0;
     }
+
     .textBanner{
         height: 110px;
         border-radius: 10px;
@@ -41,11 +41,9 @@
     }
 
     .cartBanner{
-        /*margin: 2rem 0 1.5rem 0;*/
-        margin: 30px 0 25px 0;
+        margin: 10px 0 25px 0;
     }
 
-    
 }
 
 /*Version Tablette*/
@@ -59,4 +57,5 @@
         font-size: 36px;
         border-radius: 15px;
     }
+    
 }

@@ -10,6 +10,7 @@
     border-radius: 25px;
     display: flex;
     justify-content: space-between;
+    background-size: cover;
 }
 
 .partPrev{
@@ -24,6 +25,7 @@
     color: #FFFFFF;
     font-size: 18px;
 }
+
 .partNext{
     display: flex;
     align-items: center;
@@ -42,23 +44,6 @@
     font-size: 80px;
     color: white;
 }
-
-/*
-.carte-image-carrousel span{
-    position: relative;
-    top: 146px;
-}
-
-.next{
-    float: right;
-    padding-right: 23px;
-}
-
-.prev{
-    float: left;
-    padding-left: 23px;
-}
-*/
 
 /* Version mobile */
 
@@ -112,6 +97,5 @@
     .partNext{
         margin-right: 15px;
     }
-    
-    
+     
 }

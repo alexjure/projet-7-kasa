@@ -27,6 +27,7 @@ const Carrousel = ({ slides }) => {
                 return (
                     <div className={index === current ? 'slide-active' : 'slide'} key={index}>
                         <div className='carteImageCarrousel' style={{ backgroundImage: `url(${l})` }}>
+
                             <div className='partPrev'>
                                 <span onClick={prevSlide} style={{ display: display }} className='prev'><i className="fa-sharp fa-solid fa-chevron-left"></i></span>
                             </div>
@@ -36,7 +37,7 @@ const Carrousel = ({ slides }) => {
                             <div className='partNext'>
                                 <span onClick={nextSlide} style={{ display: display }} className='next'><i className="fa-sharp fa-solid fa-chevron-right"></i></span>
                             </div>
-                            
+
                         </div>
                     </div>
                 )
@@ -46,44 +47,4 @@ const Carrousel = ({ slides }) => {
 };
 
 export default Carrousel;
-
-/*
-
-idée pour la mise en place du compteur
-
-                    <div className='carte-image-carrousel' style={{ backgroundImage: `url(${l})` }}>
-                        <div className='toto'>        
-                            <span onClick={prevSlide} style={{ display: display }} className='prev'><i className="fa-sharp fa-solid fa-chevron-left"></i></span>
-                        </div>
-                        <div className='tata'>      
-                            < span onClick={nextSlide} style={{ display: display }} className='next'><i className="fa-sharp fa-solid fa-chevron-right"></i></span>
-                        </div>     
-                        <div className='counterImage'>
-                            <p className="counter">{current + 1} / {slides.length}</p>
-                        </div>
-                    </div>
-
-
-comment s'était à l'origine
-
-                        <div className='carte-image-carrousel' style={{ backgroundImage: `url(${l})` }}>
-                            <span onClick={prevSlide} style={{ display: display }} className='prev'><i className="fa-sharp fa-solid fa-chevron-left"></i></span>
-                            <span onClick={nextSlide} style={{ display: display }} className='next'><i className="fa-sharp fa-solid fa-chevron-right"></i></span>
-                            <div className='counterImage'>
-                                <p className="counter">{current + 1} / {slides.length}</p>
-                            </div>
-                        </div>
-
-
-
-
-
-<div className={index === current ? 'slide-active' : 'slide'} key={index}>
-                        <div className='carte-image' style={{ backgroundImage: `url(${l})` }}>
-                            <button onClick={nextSlide} style={{ display: display }}>Next</button>
-                            <button onClick={prevSlide} style={{ display: display }}>Prev</button>
-                        </div>
-                    </div>
-
-*/
 

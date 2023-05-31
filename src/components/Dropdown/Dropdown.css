@@ -50,7 +50,6 @@
     transform: rotate(180deg);
 }
 
-
 /*Version Mobile*/
 
 @media screen and (max-width: 767px){
@@ -64,6 +63,7 @@
     .dropdownBlock i{
         font-size: 16px;
     }
+
 }
 
 /*Version Tablette*/
@@ -80,5 +80,4 @@
         font-size: 15px;
     }
 
-    
 }

@@ -25,7 +25,6 @@
     color: #FF6060; 
     text-decoration: none;
 }
-*/
 
 .liens a:hover{
     text-decoration-line: underline;
@@ -47,6 +46,7 @@
     .liens{
         gap: 15px;
     }
+
     .textLienAPropos{
         font-size: 12px;
     }
@@ -54,6 +54,7 @@
     .textLienAccueil{
         font-size: 12px;
     }
+
 }
 
 /*Version Tablette*/
@@ -78,4 +79,5 @@
     .textLienAccueil{
         font-size: 18px;
     }
+    
 }

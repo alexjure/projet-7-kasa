@@ -1,10 +1,11 @@
 import './Dropdown.css'
 import { useState } from 'react'
+
 function Dropdown({ title, content }) {
 
     const [active, setActive] = useState(false)
 
-    const handleToggle = (e) => {
+    const handleToggle = () => {
         setActive(!active)
     }
 

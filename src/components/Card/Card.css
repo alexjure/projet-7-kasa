@@ -35,6 +35,7 @@
 /*Version Mobile*/
 
 @media screen and (max-width: 767px){
+    
     .carteImage{
         width: 100%;
         height: 255px;
@@ -45,7 +46,6 @@
     .carte{
         background-color: transparent;
         padding-top: 0;
-        
     }
 
     .carteImage p{
@@ -56,11 +56,13 @@
     .lienLogement{
         width: 100%;
     }
+    
 }
 
 /*Version Tablette*/
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+
     .carteImage{
         border-radius: 20px;
     }
@@ -69,5 +71,6 @@
         background-color: transparent;
         padding-top: 0;
     }
+
 }
 

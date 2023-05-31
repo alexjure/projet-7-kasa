@@ -1,6 +1,6 @@
 import './Footer.css'
 import logoFooter from '../../assets/logo-kasa-footer.png'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (

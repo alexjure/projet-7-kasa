@@ -18,12 +18,12 @@ const Router = () => {
                             <FicheLogement />
                         </>
                     } />
-                    <Route path="/a-propos" element={<APropos/>} />
+                    <Route path="/a-propos" element={<APropos />} />
 
                 </Route>
 
                 <Route element={<Blank />}>
-                    <Route path='*' element={<Error />}></Route>
+                    <Route path='*' element={<Error />} />
                 </Route>
 
             </Routes>
